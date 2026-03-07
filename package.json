@@ -1,0 +1,23 @@
+{
+    "name": "arbitrary-data-server",
+    "version": "1.0.0",
+    "description": "A PostgreSQL-backed server to store and manage arbitrary JSON data.",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "node --watch index.js",
+        "init-db": "node init-db.js"
+    },
+    "dependencies": {
+        "@google/genai": "^1.43.0",
+        "body-parser": "^2.2.2",
+        "cors": "^2.8.6",
+        "dotenv": "^16.6.1",
+        "express": "^4.22.1",
+        "groq-sdk": "^0.37.0",
+        "pg": "^8.19.0",
+        "sqlite": "^5.1.1",
+        "sqlite3": "^5.1.7"
+    }
+}
