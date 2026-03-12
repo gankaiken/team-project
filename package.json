@@ -10,7 +10,6 @@
         "init-db": "node init-db.js"
     },
     "dependencies": {
-        "@google/genai": "^1.43.0",
         "body-parser": "^2.2.2",
         "cors": "^2.8.6",
         "dotenv": "^16.6.1",
